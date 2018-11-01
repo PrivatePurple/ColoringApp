@@ -28,7 +28,7 @@ public class ColoringView: UIView
         
         figure.addArc(withCenter: CGPoint(x: 200, y: 200),
                       radius: CGFloat(20),
-                      StartAngle: CGFloat(0),
+                      startAngle: CGFloat(0),
                       endAngle: CGFloat(2) * CGFloat.pi,
                       clockwise: true)
         
@@ -40,6 +40,8 @@ public class ColoringView: UIView
         figure.addLine(to: CGPoint(x: 180, y: 300))
         figure.move(to: CGPoint(x: 200, y: 270))
         figure.addLine(to: CGPoint(x: 220, y: 300))
+        
+        return figure
     }
 
 }
