@@ -17,13 +17,17 @@ public class ColoringView: UIView
  public override func draw(_ rect: CGRect) -> Void
  {
         // Drawing code
+    createStickFigure().stroke()
+    drawTurtle()
+    createSquare().stroke()
+   
     }
     
     private func createStickFigure() -> UIBezierPath
     {
         let figure : UIBezierPath = UIBezierPath()
         
-        UIColor.purple.setStroke()
+        UIColor.yellow.setStroke()
         figure.lineWidth = 3.0
         
         figure.addArc(withCenter: CGPoint(x: 200, y: 200),
@@ -44,6 +48,32 @@ public class ColoringView: UIView
         return figure
     }
 
+    private func drawTurtle() -> Void
+    {
+    let logo = UIBezierPath()
+    UIColor.white.setFill()
+        logo.move(to: CGPoint(x: 50, y: 250))
+        logo.addLine(to: CGPoint(x: 100, y: 350))
+        logo.addLine(to: CGPoint(x: 50, y: 350))
+        logo.close()
+        logo.fill()
+    }
+    
+    private func createSquare() -> UIBezierPath
+    {
+        let figure : UIBezierPath = UIBezierPath()
+        
+        UIColor.black.setStroke()
+        figure.lineWidth = 3.0
+        
+        figure.move(to: CGPoint(x: 100, y:220))
+        figure.addLine(to: CGPoint(x: 100, y: 270))
+        figure.addLine(to: CGPoint(x: 150, y: 270))
+        figure.addLine(to: CGPoint(x: 150, y: 220))
+        figure.close()
+        
+        return figure
+    }
 }
 
 

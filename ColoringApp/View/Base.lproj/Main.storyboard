@@ -16,7 +16,7 @@
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ColoringApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7zM-bn-wAB">
                                 <rect key="frame" x="131" y="557" width="113" height="30"/>
@@ -28,7 +28,7 @@
                                     <segue destination="0ug-Pi-OdG" kind="show" id="rtt-gG-OVh"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kcB-tv-Gur">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kcB-tv-Gur" customClass="ColoringView" customModule="ColoringApp" customModuleProvider="target">
                                 <rect key="frame" x="52" y="52" width="270" height="420"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.63694184100026929" green="0.24916077951894722" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
