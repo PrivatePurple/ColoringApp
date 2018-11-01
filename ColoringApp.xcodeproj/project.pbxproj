@@ -54,14 +54,46 @@
 		F6ADC316218B7334009CF79C /* ColoringApp */ = {
 			isa = PBXGroup;
 			children = (
-				F6ADC317218B7334009CF79C /* AppDelegate.swift */,
-				F6ADC319218B7334009CF79C /* ViewController.swift */,
-				F6ADC31B218B7334009CF79C /* Main.storyboard */,
-				F6ADC31E218B7335009CF79C /* Assets.xcassets */,
-				F6ADC320218B7335009CF79C /* LaunchScreen.storyboard */,
-				F6ADC323218B7335009CF79C /* Info.plist */,
+				F6ADC329218B7412009CF79C /* Model */,
+				F6ADC32A218B741E009CF79C /* Resources */,
+				F6ADC32B218B7428009CF79C /* Controller */,
+				F6ADC32C218B7440009CF79C /* View */,
 			);
 			path = ColoringApp;
+			sourceTree = "<group>";
+		};
+		F6ADC329218B7412009CF79C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6ADC32A218B741E009CF79C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6ADC317218B7334009CF79C /* AppDelegate.swift */,
+				F6ADC31E218B7335009CF79C /* Assets.xcassets */,
+				F6ADC323218B7335009CF79C /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F6ADC32B218B7428009CF79C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F6ADC319218B7334009CF79C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F6ADC32C218B7440009CF79C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6ADC31B218B7334009CF79C /* Main.storyboard */,
+				F6ADC320218B7335009CF79C /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
