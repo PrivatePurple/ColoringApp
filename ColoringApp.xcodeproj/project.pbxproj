@@ -12,6 +12,7 @@
 		F6ADC31D218B7334009CF79C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6ADC31B218B7334009CF79C /* Main.storyboard */; };
 		F6ADC31F218B7335009CF79C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6ADC31E218B7335009CF79C /* Assets.xcassets */; };
 		F6ADC322218B7335009CF79C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6ADC320218B7335009CF79C /* LaunchScreen.storyboard */; };
+		F6ADC32E218B7D15009CF79C /* ColoringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ADC32D218B7D15009CF79C /* ColoringView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F6ADC31E218B7335009CF79C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6ADC321218B7335009CF79C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6ADC323218B7335009CF79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6ADC32D218B7D15009CF79C /* ColoringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			children = (
 				F6ADC31B218B7334009CF79C /* Main.storyboard */,
 				F6ADC320218B7335009CF79C /* LaunchScreen.storyboard */,
+				F6ADC32D218B7D15009CF79C /* ColoringView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6ADC32E218B7D15009CF79C /* ColoringView.swift in Sources */,
 				F6ADC31A218B7334009CF79C /* ViewController.swift in Sources */,
 				F6ADC318218B7334009CF79C /* AppDelegate.swift in Sources */,
 			);
