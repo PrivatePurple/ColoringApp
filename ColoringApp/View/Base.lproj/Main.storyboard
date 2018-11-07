@@ -57,7 +57,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="artIdentifier" id="Aln-U1-xWn">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="artIdentifier" id="Aln-U1-xWn" customClass="ArtCell" customModule="ColoringApp" customModuleProvider="target">
                                 <rect key="frame" x="87.5" y="0.0" width="200" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -78,6 +78,10 @@
                                     </subviews>
                                 </view>
                                 <color key="backgroundColor" red="1" green="0.94649606147061416" blue="0.9607602963149795" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="artImage" destination="lHb-I8-iHk" id="6G0-e9-syT"/>
+                                    <outlet property="artLabel" destination="uzR-lS-hDf" id="uDa-gW-9r0"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
