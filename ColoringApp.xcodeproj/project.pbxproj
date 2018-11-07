@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F602A9F2219371AF00E47FAB /* ArtCollectionCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F602A9F1219371AF00E47FAB /* ArtCollectionCollectionViewController.swift */; };
 		F6ADC318218B7334009CF79C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ADC317218B7334009CF79C /* AppDelegate.swift */; };
 		F6ADC31A218B7334009CF79C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ADC319218B7334009CF79C /* ViewController.swift */; };
 		F6ADC31D218B7334009CF79C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6ADC31B218B7334009CF79C /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F602A9F1219371AF00E47FAB /* ArtCollectionCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCollectionCollectionViewController.swift; sourceTree = "<group>"; };
 		F6ADC314218B7334009CF79C /* ColoringApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColoringApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6ADC317218B7334009CF79C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6ADC319218B7334009CF79C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				F6ADC319218B7334009CF79C /* ViewController.swift */,
+				F602A9F1219371AF00E47FAB /* ArtCollectionCollectionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F602A9F2219371AF00E47FAB /* ArtCollectionCollectionViewController.swift in Sources */,
 				F6ADC32E218B7D15009CF79C /* ColoringView.swift in Sources */,
 				F6ADC31A218B7334009CF79C /* ViewController.swift in Sources */,
 				F6ADC318218B7334009CF79C /* AppDelegate.swift in Sources */,
